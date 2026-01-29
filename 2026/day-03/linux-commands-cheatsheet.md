@@ -33,19 +33,16 @@ rm file – Deletes a file
 
 rm -rf dir – Force deletes a directory
 
+----------------------------------------------
  Disk & Memory
-
- --------------------------------------------
 
 df -h – Shows disk space usage
 
 du -sh * – Shows size of files/folders
 
 free -m – Shows RAM usage
-
+----------------------------------------------
  Logs & Viewing
-
- ----------------------------------------------
 
 cat file – Displays file content
 
@@ -57,9 +54,8 @@ tail file – Shows last 10 lines
 
 tail -f log – Monitors log file live
 
+----------------------------------------------
  Search & Filter
-
- ----------------------------------------------
 
 grep word file – Searches word in file
 
@@ -71,8 +67,8 @@ wc -l file – Counts lines
 
 wc -w file – Counts words
 
- Networking
  ----------------------------------------------
+ Networking
 
 ping host – Checks network connectivity
 
@@ -80,8 +76,9 @@ ip addr – Shows system IP address
 
 curl url – Tests website or API response
 
+----------------------------------------------
+
  Permissions
- -----------------------------------------------
 
 ls -l – Checks file permissions
 
