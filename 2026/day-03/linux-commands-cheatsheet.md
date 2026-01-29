@@ -12,9 +12,8 @@ kill PID – Gracefully stops a process
 
 kill -9 PID – Forcefully kills a process
 
+----------------------------------------------
  File & Directory
-
- ----------------------------------------------
 
 pwd – Shows current directory path
 
