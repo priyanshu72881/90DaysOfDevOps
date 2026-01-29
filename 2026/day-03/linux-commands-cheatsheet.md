@@ -13,6 +13,7 @@ kill PID – Gracefully stops a process
 kill -9 PID – Forcefully kills a process
 
 ----------------------------------------------
+
  File & Directory
 
 pwd – Shows current directory path
@@ -33,7 +34,9 @@ rm file – Deletes a file
 
 rm -rf dir – Force deletes a directory
 
+
 ----------------------------------------------
+
  Disk & Memory
 
 df -h – Shows disk space usage
@@ -41,7 +44,9 @@ df -h – Shows disk space usage
 du -sh * – Shows size of files/folders
 
 free -m – Shows RAM usage
+
 ----------------------------------------------
+
  Logs & Viewing
 
 cat file – Displays file content
