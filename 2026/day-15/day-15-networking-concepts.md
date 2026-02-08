@@ -25,8 +25,8 @@ MX Record :- MX record decides where your domain’s emails are delivered.
 NS Record :- which name servers are authoritative and handle DNS queries for a domain.
 
 ---------------------------------------------------------
-
 Run: dig google.com
+
 dig is a command-line tool used to query DNS servers and get information about a domain name, such as its IP address and other DNS records.
 
 -----------------------------------------------------
@@ -41,8 +41,8 @@ Public vs Private IP Address
 Public IP Address:-A public IP address is used to communicate over the internet.It is globally unique, meaning no two devices on the internet can have the same public IP at the same time.
 
 Private IP Address:-A private IP address is used inside a local network (home, office, cloud private network).It cannot be accessed directly from the internet.
------------------------------------------------------
 
+-----------------------------------------------------
 Private IP Address Ranges
 
 These ranges are reserved for private networks:
@@ -52,11 +52,12 @@ These ranges are reserved for private networks:
 172.16.0.0 – 172.31.255.255
 
 192.168.0.0 – 192.168.255.255
+
 -------------------------------------------------------
 
 ip addr show:- The ip addr show command displays all network interfaces and their assigned IP addresses on a Linux system. It helps identify private, public, and loopback addresses.
-------------------------------------------------------
 
+------------------------------------------------------
 Task 3: CIDR & Subnetting
 
 What does /24 mean in 192.168.1.0/24?
